@@ -101,6 +101,22 @@ export class GensetdetailComponent implements OnInit {
     img:'../../assets/gen3.png',
     Name : 'Charge Alt, Failure',
     status:'true'
+  },{
+    img:'../../assets/gen2.png',
+    Name : 'Over Speed Frequency',
+    status:'false'
+  },{
+    img:'../../assets/gen1.png',
+    Name : 'Over Current',
+    status:'false'
+  },{
+    img:'../../assets/gen2.png',
+    Name : 'Low Oil Pressure',
+    status:'false'
+  },{
+    img:'../../assets/gen.png',
+    Name : 'Over Voltage',
+    status:'false'
   }]
 
   gensetTable = [{
@@ -175,7 +191,7 @@ export class GensetdetailComponent implements OnInit {
     img:'../../assets/gen1.png',
     name : 'Fuel Level',
     value : '0.000 %',
-  }]
+  },]
 
   mainTable = [{
     img:'../../a',
