@@ -60,6 +60,7 @@ import { UserdashboardComponent } from './userdashboard/userdashboard.component'
 import { ChartsModule, ThemeService } from 'ng2-charts';
 import { Ng2GaugeModule } from 'ng2-gauge';
 import { GensetdetailComponent } from './gensetdetail/gensetdetail.component';
+import { SettingComponent } from './setting/setting.component';
 @Pipe({ name: 'safeHtml' })
 export class SafeHtmlPipe implements PipeTransform {
   constructor(private sanitizer: DomSanitizer) {}
@@ -74,7 +75,8 @@ export class SafeHtmlPipe implements PipeTransform {
     LoginComponent,
     UserdashboardComponent,
     SafeHtmlPipe,
-    GensetdetailComponent
+    GensetdetailComponent,
+    SettingComponent
   ],
   imports: [
     FormsModule,
