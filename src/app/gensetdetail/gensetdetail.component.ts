@@ -222,7 +222,7 @@ export class GensetdetailComponent implements OnInit {
     KWV : 'Freq',
     Amps1 : '0 Hz',
   }]
-
+ 
   constructor(    public snackBar: MatSnackBar,
     public router: Router,) { }
 
