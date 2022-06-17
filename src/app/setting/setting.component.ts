@@ -13,7 +13,7 @@ export class SettingComponent implements OnInit {
     gensetName : 'AFX Genset',
     gensetMake : 'Deep Sea',
     version : '1.2E',
-    date : '30-12-2020',
+    date : '30-12-2022',
     oilPressure : 0.120,
     coolentTemp : 120.00,
     lowOil : true,
